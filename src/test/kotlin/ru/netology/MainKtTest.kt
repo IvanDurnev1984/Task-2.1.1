@@ -251,7 +251,7 @@ class MainKtTest {
         val limitMaxVkPayInMounth = 4_000_000
         val limitMaxVkPay = 1_500_000
 
-        val expected = true
+        val expected = false
 
         val result = limitExceeding(
             cardType = cardType,
